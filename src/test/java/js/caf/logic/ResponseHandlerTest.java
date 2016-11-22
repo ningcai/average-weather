@@ -1,5 +1,7 @@
-package js.caf;
+package js.caf.logic;
 
+import js.caf.domain.DailyForecast;
+import js.caf.logic.ResponseHandler;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

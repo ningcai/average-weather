@@ -1,6 +1,7 @@
-package js.caf;
+package js.caf.logic;
 
-import java.io.InputStream;
+import js.caf.domain.DailyForecast;
+
 import java.util.ArrayList;
 import java.util.List;
 import javax.json.*;

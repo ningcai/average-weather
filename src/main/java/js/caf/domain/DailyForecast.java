@@ -1,4 +1,4 @@
-package js.caf;
+package js.caf.domain;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
