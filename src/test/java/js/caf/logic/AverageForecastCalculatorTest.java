@@ -25,7 +25,7 @@ public class AverageForecastCalculatorTest {
         dailyForecasts = new ArrayList<>();
     }
 
-    @Ignore
+
     @Test(expected = NotEnoughDataPointsException.class)
     public void throwExceptionIfThereIsOnlyOneForecast() {
 
@@ -36,7 +36,7 @@ public class AverageForecastCalculatorTest {
         averageForecastCalculator.calculateAverageMaxTemperatureOverDays(dailyForecasts, 10);
     }
 
-    @Ignore
+   
     @Test(expected = NotEnoughDataPointsException.class)
     public void throwExceptionIfThereAreNotEnoughDataPoints() {
 
@@ -51,7 +51,7 @@ public class AverageForecastCalculatorTest {
         averageForecastCalculator.calculateAverageMaxTemperatureOverDays(dailyForecasts, 10);
     }
 
-    @Ignore
+
     @Test
     public void calculateAverageOverTheNextThreeDays() {
 
@@ -66,7 +66,7 @@ public class AverageForecastCalculatorTest {
         Assert.assertEquals(23.67f, res, 0.1f);
     }
 
-    @Ignore
+   
     @Test
     public void calculateAverageOverTheNextTwoDays() {
 
